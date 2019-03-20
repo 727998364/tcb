@@ -1,0 +1,304 @@
+/* CSS Document */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dd, input, td, textarea, select {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol {
+  list-style: none; }
+
+li {
+  list-style: none; }
+
+img {
+  border: 0; }
+
+.header {
+  width: 100%;
+  border-bottom: 1px solid #c7c7c7;
+  background: url(../img/headbg.png) repeat-x #f7f7f7; }
+  .header .head {
+    margin: 0 auto;
+    font-size: 14px;
+    width: 1200px;
+    color: #666;
+    height: 32px;
+    line-height: 32px; }
+    .header .head a:hover {
+      text-decoration: underline; }
+    .header .head .headLeft {
+      float: left; }
+      .header .head .headLeft .oneLi {
+        background: url(../img/line.gif) no-repeat 100% 7px; }
+        .header .head .headLeft .oneLi a {
+          margin-right: 13px;
+          color: #666;
+          font-size: 12px; }
+        .header .head .headLeft .oneLi span {
+          color: #185;
+          padding: 0 5px; }
+      .header .head .headLeft .twoLi {
+        margin-left: 5px; }
+        .header .head .headLeft .twoLi a {
+          font-size: 12px;
+          color: #666; }
+      .header .head .headLeft li {
+        display: inline-block;
+        color: #666;
+        height: 32px;
+        line-height: 32px; }
+    .header .head .headRight {
+      float: right; }
+      .header .head .headRight li {
+        display: inline-block;
+        background: url(../img/line.gif) no-repeat 100% 7px; }
+        .header .head .headRight li a {
+          color: #666;
+          font-size: 12px;
+          padding: 0 13px 0 12px; }
+      .header .head .headRight li:nth-of-type(7) {
+        background: none; }
+        .header .head .headRight li:nth-of-type(7) a {
+          padding: 0 0 0 12px;
+          color: #F00; }
+
+.nav {
+  width: 100%; }
+
+.navcon {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 80px; }
+
+.navLeft {
+  float: left; }
+  .navLeft .logo {
+    background: url(../img/logo.png) no-repeat 0 center;
+    display: block;
+    height: 80px;
+    width: 200px; }
+
+.navRight {
+  float: right;
+  line-height: 80px; }
+  .navRight a {
+    border: 1px solid #fff;
+    color: #666;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 18px;
+    vertical-align: middle; }
+  .navRight .hot {
+    position: relative; }
+    .navRight .hot span {
+      background: url(../img/hot.png);
+      height: 15px;
+      position: absolute;
+      right: 0;
+      top: -3px;
+      width: 24px; }
+
+.navRight a:hover {
+  background: #f4f4f4; }
+
+.banner {
+  width: 100%; }
+  .banner .bancon {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+    position: relative; }
+    .banner .bancon .xfc {
+      width: 235px;
+      height: 340px;
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .banner .bancon .xfc li {
+        background: url(../img/xfc.png) no-repeat 0 0;
+        border-bottom: 1px solid #9A9895;
+        height: 84px; }
+        .banner .bancon .xfc li a {
+          color: #fff;
+          display: block;
+          font-size: 16px;
+          line-height: 84px;
+          padding-left: 95px; }
+      .banner .bancon .xfc li:hover {
+        background: #185; }
+  .banner .ban {
+    width: 1200px;
+    height: 340px;
+    margin: 0 auto;
+    background: url(../img/banner1.jpg);
+    background-size: cover; }
+
+.showImg {
+  width: 100%;
+  background: #F7F7F7; }
+  .showImg .showImgCon {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .showImg .showImgCon a {
+      float: left;
+      border-right: 1px solid #F7F7F7; }
+    .showImg .showImgCon img {
+      display: block; }
+
+.recycle {
+  width: 100%;
+  clear: both;
+  background: #F7F7F7;
+  padding: 20px 0 0; }
+  .recycle .rec {
+    width: 1200px;
+    margin: 0 auto; }
+    .recycle .rec .recTop {
+      position: relative; }
+      .recycle .rec .recTop h2 {
+        color: #5A5A5A;
+        font-size: 24px;
+        line-height: 2;
+        font-weight: 100; }
+      .recycle .rec .recTop .goMore {
+        background: url(../img/more.png) no-repeat right 0;
+        color: #666;
+        padding-right: 20px;
+        position: absolute;
+        right: 0;
+        top: 15px; }
+    .recycle .rec .recBtm {
+      overflow: hidden;
+      background: white; }
+      .recycle .rec .recBtm .recBtmleft {
+        float: left; }
+        .recycle .rec .recBtm .recBtmleft img {
+          height: 301px;
+          width: 200px; }
+      .recycle .rec .recBtm .recBtmright {
+        float: left; }
+        .recycle .rec .recBtm .recBtmright ul li {
+          float: left;
+          border-left: 1px solid #F7F7F7;
+          width: 199px;
+          text-align: center; }
+          .recycle .rec .recBtm .recBtmright ul li a {
+            display: block;
+            height: 301px;
+            width: 100%; }
+            .recycle .rec .recBtm .recBtmright ul li a img {
+              height: 160px;
+              display: 0;
+              margin-top: 50px; }
+            .recycle .rec .recBtm .recBtmright ul li a p {
+              color: #666;
+              font-size: 16px;
+              line-height: 2;
+              margin-top: 10px; }
+
+.youPin b {
+  color: #FC6621;
+  line-height: 1.6;
+  font-weight: 100;
+  font-size: 14px; }
+
+.action {
+  width: 100%;
+  clear: both;
+  background: #F7F7F7;
+  padding: 20px 0 0;
+  padding-bottom: 50px; }
+  .action .actionNew {
+    width: 1200px;
+    margin: 0 auto; }
+    .action .actionNew .actionTop h2 {
+      color: #5A5A5A;
+      font-size: 24px;
+      line-height: 2;
+      font-weight: 100; }
+    .action .actionNew .actionBtm {
+      background: white;
+      overflow: hidden; }
+      .action .actionNew .actionBtm li {
+        float: left;
+        width: 299px;
+        height: 280px;
+        border-right: 1px solid #F7F7F7; }
+        .action .actionNew .actionBtm li .pic {
+          width: 251px;
+          padding: 24px; }
+        .action .actionNew .actionBtm li .text {
+          padding: 0 35px 23px;
+          font-size: 14px; }
+          .action .actionNew .actionBtm li .text a {
+            color: #5a5a5a; }
+          .action .actionNew .actionBtm li .text a:hover {
+            text-decoration: underline; }
+        .action .actionNew .actionBtm li .picLast {
+          margin: 0 auto;
+          padding: 30px 0;
+          width: 211px; }
+        .action .actionNew .actionBtm li .textLast {
+          text-align: center; }
+        .action .actionNew .actionBtm li .morebd {
+          font-size: 18px;
+          margin: 30px auto 0;
+          width: 266px; }
+
+.footer {
+  width: 100%;
+  background: #fafafa;
+  border-top: 1px solid #E5E5E5;
+  padding-bottom: 40px; }
+  .footer .foot {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 980px;
+    border-bottom: 1px solid #eee; }
+    .footer .foot table {
+      border-collapse: collapse;
+      width: 980px; }
+      .footer .foot table td {
+        width: 25%;
+        text-align: left; }
+        .footer .foot table td h3 {
+          font-size: 16px;
+          height: 36px;
+          line-height: 36px;
+          color: #888; }
+        .footer .foot table td a {
+          display: block;
+          line-height: 26px;
+          color: #888;
+          font-size: 12px; }
+
+.footText {
+  padding-top: 22px; }
+  .footText p {
+    line-height: 24px;
+    color: #888;
+    font-size: 12px;
+    text-align: center; }
+    .footText p span {
+      padding: 0 10px; }
+    .footText p a {
+      color: #888;
+      font-size: 12px; }
+  .footText .tit a {
+    margin: 0 12px;
+    padding-right: 10px; }
+
+.foot a:hover {
+  text-decoration: underline; }
+
+.footText a:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */
